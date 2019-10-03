@@ -1,8 +1,8 @@
 body{
-    width: 650px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
-    background-color: white;
+    background-color: rgb(209, 193, 193);
 }
 .container  { 
    
@@ -32,7 +32,13 @@ h1{
     font-family: sans-serif;
     margin-left:50px;
     font-size: 40px;
+    text-align: center;
     
+}
+img {
+    margin-left: 50px;
+    border: 2px purple ridge; 
+
 }
 p{
   color: black;
@@ -42,9 +48,19 @@ p{
   line-height: 25px;
 }
 h3{
-    color: orangered;
+    color: rgb(255, 100, 44);
     margin-left: 50px;
     margin-right:  35px;
+}
+#left-column{
+    width: 300px;
+    float: left;
+    padding-top: 20px; 
+}
+#sidebar{
+    width: 350px;
+    float: left;
+    
 }
 
 #footer{
